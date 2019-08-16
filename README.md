@@ -33,7 +33,7 @@ From `$client` object, you can access to all namespaces.
 
 ## Inspired by
 
-[KnpLabs/php-github-api](https://github.com/KnpLabs/php-github-api)
+[n10ty/php-esputnik-api](https://github.com/n10ty/php-esputnik-api)
 
 ## License
 
