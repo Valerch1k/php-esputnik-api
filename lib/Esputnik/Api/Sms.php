@@ -29,14 +29,12 @@ class Sms extends AbstractApi
     }
 
     /**
-     * Send sms message.
+     * Send single sms message.
      *
-     * @param $query
-     * @param array $parameters
+     * @param array $body
      * @return \Psr\Http\Message\StreamInterface
      */
-    public function send($query, $parameters = [])
-    {
-        return $this->post('messages/sms', $parameters);
+    public function sendSingleSms($body) {
+        return $this->post('message/sms', $body);
     }
 }
