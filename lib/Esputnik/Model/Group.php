@@ -12,11 +12,6 @@ class Group
     private $id;
     private $name;
     private $type;
-    private $types = [
-        self::GROUP_TYPE_STATIC,
-        self::GROUP_TYPE_DYNAMIC,
-        self::GROUP_TYPE_COMBINED,
-    ];
 
     /**
      * Group constructor.
