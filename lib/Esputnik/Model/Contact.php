@@ -21,9 +21,10 @@ class Contact
      * @param array     $groups
      * @param array     $channels
      */
-    public function __construct($firstName, array $groups, array $channels)
+    public function __construct($firstName, $lastName, array $groups, array $channels)
     {
         $this->firstName = $firstName;
+        $this->lastName = $lastName;
         $this->groups = array_filter($groups, function ($group) {
             return $group instanceof Group;
 
@@ -107,7 +108,7 @@ class Contact
      */
     public function addField(Field $fields)
     {
-        $this->fields = $fields;
+        $this->fields[] = $fields;
     }
 
     /**
