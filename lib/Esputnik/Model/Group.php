@@ -17,7 +17,6 @@ class Group
      * Group constructor.
      * @param $type
      * @param $name
-     * @throws InvalidModelException
      */
     public function __construct($type, $name)
     {
