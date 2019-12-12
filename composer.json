@@ -1,5 +1,5 @@
 {
-    "name": "anvein/php-esputnik-api",
+    "name": "valerch1k/php-esputnik-api",
     "description": "Library for e-sputnik.com REST api",
     "type": "library",
     "keywords": ["esputnik", "e-sputnik.com", "api"],
